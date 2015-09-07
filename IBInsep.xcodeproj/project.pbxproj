@@ -14,6 +14,9 @@
 		985C42D01B9D8672009F45EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985C42CF1B9D8672009F45EB /* Images.xcassets */; };
 		985C42D31B9D8672009F45EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 985C42D11B9D8672009F45EB /* LaunchScreen.xib */; };
 		985C42DF1B9D8672009F45EB /* IBInsepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 985C42DE1B9D8672009F45EB /* IBInsepTests.m */; };
+		985C42EA1B9D8694009F45EB /* UIView+IB.m in Sources */ = {isa = PBXBuildFile; fileRef = 985C42E91B9D8694009F45EB /* UIView+IB.m */; };
+		985C42F31B9D8A8E009F45EB /* IBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 985C42F21B9D8A8E009F45EB /* IBTextField.m */; };
+		985C42F91B9D9D1A009F45EB /* IBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 985C42F81B9D9D1A009F45EB /* IBButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		985C42D81B9D8672009F45EB /* IBInsepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBInsepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		985C42DD1B9D8672009F45EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		985C42DE1B9D8672009F45EB /* IBInsepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBInsepTests.m; sourceTree = "<group>"; };
+		985C42E81B9D8694009F45EB /* UIView+IB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IB.h"; sourceTree = "<group>"; };
+		985C42E91B9D8694009F45EB /* UIView+IB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IB.m"; sourceTree = "<group>"; };
+		985C42F11B9D8A8E009F45EB /* IBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTextField.h; sourceTree = "<group>"; };
+		985C42F21B9D8A8E009F45EB /* IBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTextField.m; sourceTree = "<group>"; };
+		985C42F71B9D9D1A009F45EB /* IBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBButton.h; sourceTree = "<group>"; };
+		985C42F81B9D9D1A009F45EB /* IBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +90,15 @@
 		985C42C11B9D8672009F45EB /* IBInsep */ = {
 			isa = PBXGroup;
 			children = (
-				985C42C61B9D8672009F45EB /* AppDelegate.h */,
-				985C42C71B9D8672009F45EB /* AppDelegate.m */,
 				985C42C91B9D8672009F45EB /* ViewController.h */,
 				985C42CA1B9D8672009F45EB /* ViewController.m */,
 				985C42CC1B9D8672009F45EB /* Main.storyboard */,
-				985C42CF1B9D8672009F45EB /* Images.xcassets */,
-				985C42D11B9D8672009F45EB /* LaunchScreen.xib */,
+				985C42E81B9D8694009F45EB /* UIView+IB.h */,
+				985C42E91B9D8694009F45EB /* UIView+IB.m */,
+				985C42F71B9D9D1A009F45EB /* IBButton.h */,
+				985C42F81B9D9D1A009F45EB /* IBButton.m */,
+				985C42F11B9D8A8E009F45EB /* IBTextField.h */,
+				985C42F21B9D8A8E009F45EB /* IBTextField.m */,
 				985C42C21B9D8672009F45EB /* Supporting Files */,
 			);
 			path = IBInsep;
@@ -96,6 +107,10 @@
 		985C42C21B9D8672009F45EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				985C42C61B9D8672009F45EB /* AppDelegate.h */,
+				985C42C71B9D8672009F45EB /* AppDelegate.m */,
+				985C42CF1B9D8672009F45EB /* Images.xcassets */,
+				985C42D11B9D8672009F45EB /* LaunchScreen.xib */,
 				985C42C31B9D8672009F45EB /* Info.plist */,
 				985C42C41B9D8672009F45EB /* main.m */,
 			);
@@ -219,7 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985C42F91B9D9D1A009F45EB /* IBButton.m in Sources */,
 				985C42CB1B9D8672009F45EB /* ViewController.m in Sources */,
+				985C42F31B9D8A8E009F45EB /* IBTextField.m in Sources */,
+				985C42EA1B9D8694009F45EB /* UIView+IB.m in Sources */,
 				985C42C81B9D8672009F45EB /* AppDelegate.m in Sources */,
 				985C42C51B9D8672009F45EB /* main.m in Sources */,
 			);
